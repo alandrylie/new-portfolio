@@ -1,0 +1,142 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #0f1e3f;
+    color: #c2bbbb;
+}
+main {
+    padding: 1rem;
+}
+a {
+    color: #c2bbbb;
+}
+header p {
+    text-align: center;
+}
+h1,
+h2,
+h4 {
+    font-weight: 600;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-evenly;
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #c2bbbb;
+    border-radius: 8px;
+}
+
+li a:active {
+    color: red;
+}
+
+.aboutText {
+    margin: 0 1rem;
+}
+.headShot {
+    display: flex;
+    justify-content: center;
+}
+.headShot img {
+    width: 200px;
+    height: 135px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.projectCard p {
+    display: none;
+}
+
+.projectCard img {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: top;
+}
+
+footer {
+    font-size: smaller;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+}
+
+/* Tablet begins here */
+
+@media (min-width: 768px) {
+    nav ul a {
+        padding: 0.75rem 1.75rem;
+    }
+    .headShot img {
+        width: 400px;
+        height: 270px;
+    }
+
+    .projectsGrid {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        justify-items: center;
+    }
+
+    .projectCard p {
+        display: block;
+        margin: 0 1rem;
+    }
+
+    .projectCard img {
+        width: 100%;
+    }
+
+    footer {
+        font-size: small;
+    }
+}
+
+/* Desktop begins here*/
+
+@media (min-width: 1024px) {
+    nav ul a {
+        padding: 1rem 3rem;
+        transition-duration: 0.3s;
+    }
+
+    nav li a:hover {
+        box-shadow: 5px 4px 6px #c2bbbb6e;
+    }
+
+    nav li a:active {
+        box-shadow: 5px 2px 3px #c2bbbb6e;
+    }
+
+    .headShot img {
+        width: 450px;
+        height: 305px;
+    }
+
+    .projectsGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
