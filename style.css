@@ -69,6 +69,7 @@ li a:active {
     border-radius: 5px;
     object-fit: cover;
     object-position: top;
+    
 }
 
 footer {
@@ -131,12 +132,23 @@ footer a:hover {
         box-shadow: 5px 2px 3px #c2bbbb6e;
     }
 
-    .headShot img {
-        width: 450px;
-        height: 305px;
+    .deskTopSide {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .aboutText {
+        width: 60%;
+    }
+
+    .headShot {
+        width: 40%;
     }
 
     .projectsGrid {
         grid-template-columns: repeat(3, 1fr);
     }
+    
+       
 }
