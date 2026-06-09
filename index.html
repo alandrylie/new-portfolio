@@ -13,6 +13,13 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
     <body>
         <header>
@@ -24,6 +31,7 @@
                 <li><a href="#aboutMe">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <main>
@@ -61,30 +69,27 @@
             <section id="skills">
                 <h2>Skills</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Introduction to Python</li>
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fab fa-python"></i> Introduction to Python</li>
+                    <li><i class="fas fa-terminal"></i> Command Line</li>
+                    <li><i class="fab fa-git"></i> Git</li>
+                    <li><i class="fab fa-github"></i> GitHub</li>
+                    <li><i class="fab fa-markdown"></i> Markdown</li>
                 </ul>
             </section>
             <section id="projects">
                 <h2>Project Showcase</h2>
                 <div class="projectsGrid">
                     <article class="projectCard">
-                        <a href="#">
-                            <img
-                                src="images/projects/devPortfolio.jpg"
-                                alt="an image of the dev portfolio site"
-                            />
-                        </a>
-                        <h4>Dev Portfolio</h4>
-                        <p>My first Developer Portfolio</p>
-                    </article>
-                    <article class="projectCard">
-                        <a href="#">
+                        <a
+                            href="https://alandrylie.github.io/The-lvdge-Of-Dunfermling/"
+                            target="_blank"
+                        >
                             <img
                                 src="images/projects/MasonicLodge.jpg"
-                                alt="an image of the current website using older styling of html & css and broken JavaScript"
+                                alt="An in progress project to update the Masonic Lodge website with modern techniques on github pages"
                             />
                         </a>
                         <h4>Masonic Lodge</h4>
@@ -97,7 +102,7 @@
                         <a href="https://alandrylie.github.io/fullStackCheatSheet/" target="_blank">
                             <img
                                 src="images/projects/cheetSheet.jpg"
-                                alt="A screenshot of the Full Stack CheatSheet"
+                                alt="A link to the Full Stack Cheat sheet project on github pages"
                             />
                         </a>
                         <h4>Full Stack CheatSheet in progress</h4>
@@ -107,18 +112,37 @@
                         </p>
                     </article>
                     <article class="projectCard">
-                        <a href="#">
-                            <img src="" alt="No image to display" />
+                        <a href="https://github.com/alandrylie/Mixed-Messages" target="_blank">
+                            <img
+                                src="images/projects/mixedMessages.jpg"
+                                alt="Mixed messages project built with JavaScript on GitHub"
+                            />
                         </a>
-                        <h4>Placeholder</h4>
-                        <p></p>
+                        <h4>Mixed Messages Codecademy Project</h4>
+                        <p>A simple message generator built with JavaScript</p>
+                    </article>
+                    <article class="projectCard">
+                        <a href="https://github.com/alandrylie/mystery-organism-starter">
+                            <img
+                                src="images/projects/mysteryOrganism.jpg"
+                                alt="Mystery Organism project built with JavaScript on GitHub"
+                            />
+                        </a>
+                        <h4>Mystery Organism Codecademy Project</h4>
+                        <p>A simple organism simulation built with JavaScript</p>
                     </article>
                 </div>
             </section>
         </main>
         <footer>
             Alan Drylie | Full Stack Portfolio V1.0 |
-            <a href="https://www.linkedin.com/in/alandrylie/" target="_blank">linkedin</a>
+            <a
+                href="https://www.linkedin.com/in/alandrylie/"
+                target="_blank"
+                aria-label="LinkedIn profile"
+            >
+                linkedin
+            </a>
         </footer>
     </body>
 </html>
