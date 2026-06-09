@@ -25,13 +25,21 @@ nav ul {
     list-style: none;
     padding-left: 0;
     justify-content: space-evenly;
+
 }
 
-nav ul a {
+nav ul a, #lightModeToggle {
+    margin-top: 0.5rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border: 1px solid #c2bbbb;
     border-radius: 8px;
+}
+
+nav ul  #lightModeToggle {
+    background-color: transparent;
+    color: #c2bbbb;
+    cursor: pointer;
 }
 
 li a:active {

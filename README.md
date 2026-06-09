@@ -11,4 +11,4 @@
 #### Future improvements
 + Add more Projects to the site
 + Learn about clastList.toggle
-+ Consider reach project with its own dedicated page if needed. 
++ Consider each project needs its own dedicated page. 
