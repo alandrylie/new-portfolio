@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -9,6 +13,9 @@ main {
 }
 a {
     color: #c2bbbb;
+}
+header{
+    margin-bottom: 1.5rem;
 }
 header p {
     text-align: center;
