@@ -15,6 +15,7 @@ header p {
 }
 h1,
 h2,
+h3,
 h4 {
     font-weight: 600;
     text-align: center;
@@ -25,10 +26,10 @@ nav ul {
     list-style: none;
     padding-left: 0;
     justify-content: space-evenly;
-
 }
 
-nav ul a, #lightModeToggle {
+nav ul a,
+#lightModeToggle {
     margin-top: 0.5rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -36,7 +37,7 @@ nav ul a, #lightModeToggle {
     border-radius: 8px;
 }
 
-nav ul  #lightModeToggle {
+nav ul #lightModeToggle {
     background-color: transparent;
     color: #c2bbbb;
     cursor: pointer;
@@ -160,9 +161,7 @@ footer a:hover {
 
     #contactList li a:hover {
         color: #f7f7f7;
-        
     }
-
 
     footer a:hover {
         color: #f7f7f7;
