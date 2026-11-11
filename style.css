@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -14,7 +14,7 @@ main {
 a {
     color: #c2bbbb;
 }
-header{
+header {
     margin-bottom: 1.5rem;
 }
 header p {
@@ -72,10 +72,11 @@ li a:active {
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
+    gap: 1rem;
 }
 
 .projectCard p {
-    display: none;
+    margin: 0 1rem;
 }
 
 .projectCard img {
@@ -115,11 +116,6 @@ footer a:hover {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
         justify-items: center;
-    }
-
-    .projectCard p {
-        display: block;
-        margin: 0 1rem;
     }
 
     .projectCard img {

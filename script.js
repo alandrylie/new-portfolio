@@ -3,6 +3,7 @@ let isDarkMode = true;
 
 function toggleLightMode() {
     if (isDarkMode === true) {
+        
         document.body.style.backgroundColor = "#FFFFFF";
 
         document.body.style.color = "#0f1e3f";
@@ -22,7 +23,7 @@ function toggleLightMode() {
         for (let j = 0; j < navListLinks.length; j++) {
             navListLinks[j].style.border = " 1px solid #0f1e3f";
         }
-
+        document.getElementById("lightModeToggle").setAttribute("aria-pressed", "true");
         isDarkMode = false;
 
         localStorage.setItem("isDarkMode", "false");
@@ -46,6 +47,7 @@ function toggleLightMode() {
 
         isDarkMode = true;
         localStorage.setItem("isDarkMode", "true");
+        document.getElementById("lightModeToggle").setAttribute("aria-pressed", "false");
     }
 }
 
